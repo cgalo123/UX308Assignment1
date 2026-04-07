@@ -131,7 +131,7 @@ function upsell(sInput) {
   if (sInput.toLowerCase().includes("no")) {
     oOrder.bCakePop = false;
     currentState = done;
-    aReturn[0] = "Perfect! Your Starbucks order is confirmed.";
+    aReturn[0] = "Perfect! Your Starbucks order is confirmed. It will be ready shortly";
     return aReturn;
   }
 
