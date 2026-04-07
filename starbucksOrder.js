@@ -124,7 +124,7 @@ function upsell(sInput) {
   if (sInput.toLowerCase().includes("yes")) {
     oOrder.bCakePop = true;
     currentState = done;
-    aReturn[0] = "Perfect! Your order is confirmed, and I added a cake pop.";
+    aReturn[0] = "Perfect! Your order is confirmed, and I added a cake pop!";
     return aReturn;
   }
 
